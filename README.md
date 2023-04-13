@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Typ produktu:
+id (primary key)
+kg
+szt.
 
-Things you may want to cover:
+Produkt:
+id (primary key)
+nazwa:
+typ produktu id:
+kategoria id
+wartosc (liczba double)
+cena
 
-* Ruby version
 
-* System dependencies
+Kategorie
+id (primary key)
+nazwa
 
-* Configuration
+Lista zakupow:
+id (primary key)
+id produktu
+ilosc (liczba calkowita)
+kwota netto (double)
+kwoa brutto (double)
+data
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+turbo – ajax  - rails
